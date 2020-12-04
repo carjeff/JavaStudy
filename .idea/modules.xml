@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common_class/common_class.iml" filepath="$PROJECT_DIR$/common_class/common_class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/highlevel/highlevel.iml" filepath="$PROJECT_DIR$/highlevel/highlevel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stduytemplate.iml" filepath="$PROJECT_DIR$/stduytemplate.iml" />
+    </modules>
+  </component>
+</project>
