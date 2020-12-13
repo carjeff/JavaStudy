@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/highlevel/highlevel.iml" filepath="$PROJECT_DIR$/highlevel/highlevel.iml" />
       <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/network/network.iml" filepath="$PROJECT_DIR$/network/network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/new_feature/new_feature.iml" filepath="$PROJECT_DIR$/new_feature/new_feature.iml" />
       <module fileurl="file://$PROJECT_DIR$/reflection/reflection.iml" filepath="$PROJECT_DIR$/reflection/reflection.iml" />
       <module fileurl="file://$PROJECT_DIR$/stduytemplate.iml" filepath="$PROJECT_DIR$/stduytemplate.iml" />
     </modules>

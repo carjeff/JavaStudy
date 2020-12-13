@@ -29,6 +29,14 @@ class Superman implements Human{
     }
 }
 
+class HumanUtil{
+    public void method1(){
+        System.out.println("********通用方法1********");
+    }
+    public void method2(){
+        System.out.println("********通用方法2********");
+    }
+}
 //动态代理
 //1. 如何根据加载到内存的被代理类，去动态创建一个代理类及其对象
 //2. 如何动态调用被代理类方法
@@ -51,9 +59,13 @@ class MyInvocationHandler implements InvocationHandler{
     //将被代理类要执行的方法功能声明在invoke方法中
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+        HumanUtil util = new HumanUtil();
+        util.method1();
+
         //代理类对象调用的方法，此方法作为被代理要调用的方法
         //obj 被代理类对象
         Object invoke = method.invoke(obj, args);
+        util.method2();
         return invoke;
     }
 }
