@@ -33,13 +33,19 @@ import org.junit.Test;
  *
  * 输入: "{[]}"
  * 输出: true
- *
- * 来源：力扣（LeetCode）
- * 链接：https://leetcode-cn.com/problems/valid-parentheses
- * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+
  */
 public class isValidTest {
+
+    //使用栈来做匹配
     public boolean isValid(String s){
+        int len = s.length();
+        //如果字符个数是奇数，肯定不匹配
+        if (len % 2 != 0) {
+            return false;
+        }
+
+
         return false;
     }
 
