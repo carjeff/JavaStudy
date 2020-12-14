@@ -8,6 +8,8 @@ import java.util.List;
 /**
  * @author JeffCar
  * @date 12/14/2020 - 12:31 AM
+ *
+ * 中间操作
  */
 public class StreamAPITest1 {
     //1. 筛选与切片
@@ -37,7 +39,7 @@ public class StreamAPITest1 {
 
     }
 
-    //映射
+    //2. 映射
     @Test
     public void test2(){
         //map
@@ -71,5 +73,22 @@ public class StreamAPITest1 {
         list.addAll(list2);
 //        list.add(list2);
         System.out.println(list);
+    }
+
+    //3. 排序
+    @Test
+    public void test4(){
+        //自然排序
+        List<Integer> list = Arrays.asList(12, 32, 42, 523, 23, 44);
+        list.stream().sorted().forEach(System.out::println);
+        //类中要实现Comparable接口
+        List<Employee> employees = EmployeeData.getEmployees();
+//        employees.stream().sorted().forEach(System.out::println);
+
+
+        //定制排序
+        employees.stream().sorted( (e1,e2) -> {
+            return Integer.compare(e1.getAge(), e2.getAge());
+        }).forEach(System.out::println);
     }
 }
