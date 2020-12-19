@@ -35,7 +35,7 @@ public class CustomerForQuery {
                 for (int i = 0; i<columnCount; i++){
                     Object value = resultSet.getObject(i + 1);
                     //获取每个列的列名
-                    String columnName = metaData.getColumnName(i + 1);
+                    String columnName = metaData.getColumnLabel(i + 1);
 
 
                     //给customer指定属性赋值为value,, 通过反射
