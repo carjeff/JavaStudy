@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/JDBC/JDBC.iml" filepath="$PROJECT_DIR$/JDBC/JDBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/common_class/common_class.iml" filepath="$PROJECT_DIR$/common_class/common_class.iml" />
       <module fileurl="file://$PROJECT_DIR$/highlevel/highlevel.iml" filepath="$PROJECT_DIR$/highlevel/highlevel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaWeb/jQuery/jQuery.iml" filepath="$PROJECT_DIR$/javaWeb/jQuery/jQuery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaWeb/javaWeb.iml" filepath="$PROJECT_DIR$/javaWeb/javaWeb.iml" />
       <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/libs/libs.iml" filepath="$PROJECT_DIR$/libs/libs.iml" />
       <module fileurl="file://$PROJECT_DIR$/network/network.iml" filepath="$PROJECT_DIR$/network/network.iml" />
