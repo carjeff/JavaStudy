@@ -52,10 +52,22 @@ public class FindRepeatNumber {
         return array[i];
     }
 
+
+    public int test(int[] nums){
+        HashSet<Integer> set = new HashSet<>();
+        for (int i = 0; i<nums.length;i++){
+            if (set.contains(nums[i])){
+                return nums[i];
+            }else {
+                set.add(nums[i]);
+            }
+        }
+        return 0;
+    }
     @Test
     public void main(){
         int[] nums = {2,3,1,0,2,5,3};
-        int repeatNumber = findRepeatNumber(nums);
+        int repeatNumber = test(nums);
         System.out.println(repeatNumber);
     }
 }
